@@ -5,6 +5,16 @@ This system helps users identify, classify, and properly dispose of different ty
 
 ---
 
+You said
+---
+
+**Here is a look at the UI in action:**
+
+![AI Receptionist Chat UI](assets/demo.png)
+
+---
+
+
 ## 🚀 Features
 
 - 🤖 Local AI Inference: Powered by Ollama (llama3.2:1b) for fast and private responses.
