@@ -19,6 +19,7 @@ This system helps users identify, classify, and properly dispose of different ty
 
 ## 🧱 Project Structure
 
+```text
 Smart-Waste-Segregation-Assistant/
 
 │
@@ -40,8 +41,7 @@ Smart-Waste-Segregation-Assistant/
 ├── docs/
 │   └── README.md
 └── .env
-
----
+```
 
 ---
 
