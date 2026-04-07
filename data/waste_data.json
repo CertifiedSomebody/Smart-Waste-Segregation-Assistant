@@ -1,0 +1,95 @@
+{
+  "assistant": {
+    "name": "Smart Waste Segregation Assistant",
+    "location": "Mumbai, India",
+    "contact": {
+      "phone": "+91-9876543210",
+      "email": "support@wasteassistant.com"
+    },
+    "working_hours": "24/7",
+    "service_available": true
+  },
+
+  "waste_categories": [
+    {
+      "name": "Organic Waste",
+      "description": "Biodegradable waste like food scraps, vegetable peels, garden waste",
+      "available": true
+    },
+    {
+      "name": "Recyclable Waste",
+      "description": "Paper, plastic bottles, glass, metals that can be recycled",
+      "available": true
+    },
+    {
+      "name": "Hazardous Waste",
+      "description": "Chemicals, batteries, paints, and toxic materials",
+      "available": true
+    },
+    {
+      "name": "E-Waste",
+      "description": "Electronic waste like phones, laptops, chargers",
+      "available": true
+    },
+    {
+      "name": "Residual Waste",
+      "description": "Non-recyclable and non-compostable waste",
+      "available": true
+    }
+  ],
+
+  "sorting_guidelines": [
+    {
+      "id": "GUIDE001",
+      "type": "Plastic",
+      "category": "Recyclable Waste",
+      "instructions": "Clean and dry plastic before disposal. Remove food residues."
+    },
+    {
+      "id": "GUIDE002",
+      "type": "Food Waste",
+      "category": "Organic Waste",
+      "instructions": "Dispose in compost bin. Avoid mixing with plastics."
+    },
+    {
+      "id": "GUIDE003",
+      "type": "Batteries",
+      "category": "Hazardous Waste",
+      "instructions": "Do not throw in regular bins. Use designated collection centers."
+    },
+    {
+      "id": "GUIDE004",
+      "type": "Electronics",
+      "category": "E-Waste",
+      "instructions": "Send to authorized e-waste recycling centers."
+    }
+  ],
+
+  "services": [
+    "Waste Classification",
+    "Segregation Guidance",
+    "Recycling Tips",
+    "Composting Help",
+    "Waste Disposal Advice",
+    "Environmental Awareness"
+  ],
+
+  "faqs": [
+    {
+      "question": "How do I classify my waste?",
+      "answer": "Describe your waste or upload an image, and I will guide you to the correct category."
+    },
+    {
+      "question": "Where should I dispose of plastic waste?",
+      "answer": "Clean plastic should be placed in recyclable waste bins or sent to recycling centers."
+    },
+    {
+      "question": "What is hazardous waste?",
+      "answer": "Hazardous waste includes chemicals, batteries, and toxic materials that need special handling."
+    },
+    {
+      "question": "Can food waste be recycled?",
+      "answer": "Yes, food waste can be composted and used as organic fertilizer."
+    }
+  ]
+}

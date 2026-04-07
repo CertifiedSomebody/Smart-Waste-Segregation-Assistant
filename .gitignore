@@ -1,0 +1,37 @@
+# ==========================================
+# AI Hospital Receptionist - .gitignore
+# ==========================================
+
+# 1. Environment Variables (CRITICAL: Never commit this!)
+.env
+
+# 2. Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+myenv/
+setup.py
+frontend/
+docs/
+
+# 3. Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 4. Local Database Files
+# We ignore the local DB so you don't overwrite production data
+hospital.db
+*.sqlite3
+*.db
+
+# 5. OS & Editor Generated Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# 6. Logs
+*.log
